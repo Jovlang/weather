@@ -1,6 +1,5 @@
 body {
   background: #222;
-  color: #CCC;
 }
 
 #container {
@@ -11,21 +10,22 @@ body {
 
 #box {
   background: #444;
-  padding: 8px;
+  color: #CCC;
   width: 155px;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 2px solid #CCC;
   font-family: sans-serif;
   font-size: 16px;
-  border: 2px solid #CCC;
-  margin-bottom: 5px;
 }
 
 select {
   background: #444;
-  width: 175px;
   color: #CCC;
-  border: 2px solid #CCC;
+  width: 175px;
+  padding-left: 4px;
   margin: 0 auto;
+  border: 2px solid #CCC;
   font-family: sans-serif;
   font-size: 16px;
-  padding-left: 4px;
 }

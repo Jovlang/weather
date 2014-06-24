@@ -8,6 +8,7 @@
   <body>
     <div id="container">
       <div id="box">
+        <img src="http://openweathermap.org/img/w/{{icon}}.png" /><br>
         {{weather}}<br>
         Temperature: {{temperature}}° C<br>
         Humidity: {{humidity}}%<br>

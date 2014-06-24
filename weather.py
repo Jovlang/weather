@@ -11,7 +11,8 @@ def weather_html(location):
                     temperature = math.ceil(float(body['main']['temp']) - 273.15),
                     humidity = body['main']['humidity'],
                     pressure = body['main']['pressure'],
-                    weather = body['weather'][0]['main'])
+                    weather = body['weather'][0]['main'],
+                    icon = body['weather'][0]['icon'])
 
 @get('/weather')
 def fn():
@@ -25,4 +26,4 @@ def fn():
 def fn(name):
     return static_file(name, root='./static')
 
-run(host='localhost', port=8080, debug=True)
+run(host='localhost', port=8080)
