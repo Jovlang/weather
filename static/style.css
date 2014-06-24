@@ -12,7 +12,8 @@ body {
 #box {
   background: #444;
   padding: 8px;
-  font-size: 18px;
+  font-family: sans-serif;
+  font-size: 16px;
   border: 2px solid #CCC;
   margin-bottom: 5px;
 }
@@ -21,4 +22,8 @@ select {
   background: #444;
   color: #CCC;
   border: 2px solid #CCC;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding-left: 4px;
 }
