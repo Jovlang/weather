@@ -1,7 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Weather</title>
+    <meta charset="utf8" />
     <link rel="stylesheet" type="text/css" href="static/style.css">
   </head>
   <body>
