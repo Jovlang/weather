@@ -14,16 +14,15 @@
         Pressure: {{pressure}} hPa
       </div>
       <form id="cityform" action="/weather" method="post">
-        <select name="city">
+        <select name="city" onchange="this.form.submit()">
           % for i in ["Oslo,no", "Tokyo,jp", "Kairo,eg", "Dodoma,tz", "Rio de Janeiro,br"]:
             % if i == location:
-          <option value="{{i}}" selected>{{i}}</option>
+          <option value="{{i}}" selected>{{i.split(',')[0]}}</option>
             % else:
-          <option value="{{i}}">{{i}}</option>
+          <option value="{{i}}">{{i.split(',')[0]}}</option>
             % end
           % end
         </select>
-        <input value="Go" type="submit" />
       </form>
     </div>
   </body>
