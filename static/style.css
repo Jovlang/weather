@@ -1,0 +1,24 @@
+body {
+  background: #222;
+  color: #CCC;
+}
+
+#container {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+#box {
+  background: #444;
+  padding: 8px;
+  font-size: 18px;
+  border: 2px solid #CCC;
+  margin-bottom: 5px;
+}
+
+select {
+  background: #444;
+  color: #CCC;
+  border: 2px solid #CCC;
+}
